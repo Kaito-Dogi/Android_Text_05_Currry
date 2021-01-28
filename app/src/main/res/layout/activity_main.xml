@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/riceImageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="0.3"
+        app:srcCompat="@drawable/question" />
+
+    <TextView
+        android:id="@+id/riceTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="0.05"
+        android:gravity="center_horizontal"
+        android:text="？？？に"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/curryImageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="0.3"
+        app:srcCompat="@drawable/question" />
+
+    <TextView
+        android:id="@+id/curryTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="0.05"
+        android:gravity="center_horizontal"
+        android:text="？？？を"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/kakeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:layout_weight="0.2"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center|center_horizontal"
+        android:text="かける？かけない？"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="0.1"
+        android:gravity="center|center_horizontal"
+        android:text="うんだめし"
+        android:textSize="18sp" />
+
+</LinearLayout>
