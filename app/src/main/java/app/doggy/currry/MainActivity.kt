@@ -32,11 +32,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         //クリックリスナを設定。
-        button.setOnClickListener(OnClickListener())
+        button.setOnClickListener(TryYourLuckListener())
 
     }
 
-    private inner class OnClickListener: View.OnClickListener {
+    private inner class TryYourLuckListener: View.OnClickListener {
         override fun onClick(view: View) {
 
             //statusNumの値によって処理を変える。
